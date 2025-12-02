@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — SEPA Validator</title>
+</head>
+<body>
+  <h1>Privacy Policy — SEPA Validator (Extension)</h1>
+  <p>Date: 2025-12-01</p>
+  <h2>Summary</h2>
+  <p>This extension validates SEPA (pain.001) files directly in your browser. No personal or financial data (IBAN, amounts, names) is sent to any remote server by this extension.</p>
+  <h2>Processed Data</h2>
+  <ul>
+    <li>The extension only reads and analyzes the XML files you provide (pain.001).</li>
+    <li>Extracted information may include IBAN, BIC, names, amounts, and transaction identifiers.</li>
+    <li>No automatic collection from websites or the browser is performed.</li>
+  </ul>
+  <h2>Local Processing</h2>
+  <p>All parsing and validation operations are executed locally in the browser (FileReader + DOMParser). No data leaves your device. The extension does not make network calls to send analyzed content.</p>
+  <h2>Storage</h2>
+  <p>By default, the extension does not store IBANs or transaction information in chrome.storage or elsewhere. If a local storage feature is added, it will be explicitly indicated and encrypted if necessary.</p>
+  <h2>Cookies and Analytics</h2>
+  <p>No analytics solution (Google Analytics, Sentry, etc.) is integrated and no sensitive usage data is collected.</p>
+  <h2>Security</h2>
+  <p>All network communications (if added in the future) must use HTTPS.</p>
+  <h2>Retention and Deletion</h2>
+  <p>As the extension does not collect or store server-side data, there is no data to delete on the service side.</p>
+  <h2>Contact</h2>
+  <p>For any privacy-related questions: open an issue on the GitHub repository: <a href="https://github.com/elnidev/SepaValidator/issues">Open an issue</a></p>
+</body>
+</html>
